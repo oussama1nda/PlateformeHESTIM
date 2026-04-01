@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Couleur HESTIM personnalisée */
+@layer utilities {
+    .bg-hestim-blue {
+        background-color: #00175f !important;
+    }
+    .text-hestim-blue {
+        color: #00175f !important;
+    }
+    .border-hestim-blue {
+        border-color: #00175f !important;
+    }
+}
+
+/* Remplacement des couleurs bleues Tailwind par #00175f */
+.bg-blue-600,
+.bg-blue-700,
+.bg-blue-800 {
+    background-color: #00175f !important;
+}
+
+.text-blue-600,
+.text-blue-700,
+.text-blue-800 {
+    color: #00175f !important;
+}
+
+.border-blue-500,
+.border-blue-600,
+.border-blue-700 {
+    border-color: #00175f !important;
+}
+
+.hover\:bg-blue-700:hover,
+.hover\:bg-blue-800:hover {
+    background-color: #00175f !important;
+}
+
+.hover\:text-blue-600:hover,
+.hover\:text-blue-800:hover {
+    color: #00175f !important;
+}
+
+.focus\:ring-blue-500:focus,
+.focus\:ring-2:focus {
+    --tw-ring-color: #00175f !important;
+}
+
+.focus\:border-blue-500:focus {
+    border-color: #00175f !important;
+}
+
+.from-blue-600 {
+    --tw-gradient-from: #00175f !important;
+}
+
+.to-blue-700 {
+    --tw-gradient-to: #00175f !important;
+}
+
